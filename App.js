@@ -1,17 +1,16 @@
-import('/landing/landing.js')
+import('./landing/landing.js')
     .then(({setLanding}) => {
         setLanding(); 
     })
     .catch(err => {
-      land.textContent = err.message;
+      console.log(err.message);
     });
 
-    import('/landing/landing.css', {assert: {type:'css'}})
+    import('./landing/landing.css', {assert: {type:'css'}})
     .then(landing => {
-      
       document.adoptedStyleSheets = [landing.default]; 
     })
     .catch(err => {
-      landing.textContent = err.message;
+      console.log(err.message);
     });
 
