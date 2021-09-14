@@ -1,5 +1,17 @@
-import {setLanding} from './landing/landing.js'
-import landing from './landing/landing.css' assert { type: 'css' };
-document.adoptedStyleSheets = [landing];
+import('/landing/landing.js')
+    .then(({setLanding}) => {
+        setLanding(); 
+    })
+    .catch(err => {
+      land.textContent = err.message;
+    });
 
-setLanding()
+    import('/landing/landing.css', {assert: {type:'css'}})
+    .then(landing => {
+      
+      document.adoptedStyleSheets = [landing.default]; 
+    })
+    .catch(err => {
+      landing.textContent = err.message;
+    });
+
