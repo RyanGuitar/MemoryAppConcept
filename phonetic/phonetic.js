@@ -1,7 +1,7 @@
 function setPhonetic(){
   import('../scripts/aggregator.js')
       .then(({elAdd, addClickId, setMenu}) => {
-        import('./Phonetic.css', {assert: {type:'css'}})
+        import('./phonetic.css', {assert: {type:'css'}})
         .then(phonetic => {
           const phoneticHTML =
           `<div id="heading">Phonetic Alphabet</div>
