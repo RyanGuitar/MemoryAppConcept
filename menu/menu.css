@@ -1,0 +1,21 @@
+#AppContainer {
+  padding-top:10vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+}
+
+
+#heading {
+  font-size:4vw;
+}
+
+#menu {
+  padding-top:10px;
+}
+
+#menu div {
+  padding:7px 0;
+}
