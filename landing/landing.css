@@ -10,8 +10,9 @@
   text-align: center;
 }
 #heading {
-  font-size: 5vw;
+  font-size: 2rem;
+  padding-bottom:1rem;
 }
 #start {
-  font-size: 3vw;
+  font-size: 1rem;
 }

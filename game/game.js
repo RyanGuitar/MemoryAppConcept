@@ -1,7 +1,7 @@
 function setGame(){
   import('../scripts/aggregator.js')
       .then(({elAdd, addClickId, setMenu}) => {
-        import('./game.css', {assert: {type:'css'}})
+        import('../introduction/introduction.css', {assert: {type:'css'}})
         .then(game => {
           const gameHTML =
           `<div id="heading">Game Mode</div>

@@ -1,12 +1,22 @@
+
+/*@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/roboto-v27-latin-regular.woff2') format('woff2'), 
+       url('./fonts/roboto-v27-latin-regular.woff') format('woff'); 
+}*/
 * {
+  user-select: none;
   margin:0;
   box-sizing: border-box;
 }
-
-#AppContainer {
-  display: flex;
-  align-items:center;
-  justify-content: center;
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body {
   width:100vw;
   height:100vh;
 }

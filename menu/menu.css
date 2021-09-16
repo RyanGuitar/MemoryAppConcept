@@ -8,13 +8,14 @@
 
 
 #heading {
-  font-size:4vw;
+  font-size:2rem;
 }
 
 #menu {
-  padding-top:10px;
+  padding-top:1rem;
 }
 
 #menu div {
-  padding:7px 0;
+  font-size: 1.2rem;
+  padding:0.5rem 0;
 }

@@ -11,14 +11,14 @@ export {
   setIntroduction,
 } from '../introduction/introduction.js'
 export {
-  setTutorial,
-} from '../tutorial/tutorial.js'
+  setSounds1,
+} from '../sounds1/sounds1.js'
 export {
-  setPhonetic,
-} from '../phonetic/phonetic.js'
+  setBasics,
+} from '../basics/basics.js'
 export {
-  setPractice,
-} from '../practice/practice.js'
+  setSounds2,
+} from '../sounds2/sounds2.js'
 export {
   setGame
 } from '../game/game.js'
